@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pontano-sans{
+  font-family: "Pontano Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+header{
+    background-color: #FFF8F3;
+    padding: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .list{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+}
+nav .list a{
+   text-decoration: none;
+   color: blue;
+   font-weight: bold;
+}
+nav .list a:hover{
+    color: aqua;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: 8px;
+    color: white;
+    font-weight: bold;
+    
+
+}
