@@ -12,19 +12,41 @@
 .btn{
     background-color: #FD6E0A;
     border: none;
-    padding: 18PX 35px;
+    padding: 12PX 25px;
     border-radius: 5px;
-    font-size: 20PX;
+    font-size: 16PX;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30PX;
+    line-height: 30px;
+    color: #757575;
+}
+
+/* Style for MAIN */
 header{
     background-color: #FFF8F3;
+    background: url(images/developer.png), url("images/header_bg.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 .logo h2{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 900;
 }
 .font-orange{
@@ -50,5 +72,50 @@ nav .menu a{
     color: #474747;
     text-decoration: none;
 }
+#banner{
+    /* border: 1px solid red; */
+    margin:47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+} 
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+} 
+#about .about-container .about-info{
+   display: flex;
+   justify-content: space-around;
+    
+} 
 
